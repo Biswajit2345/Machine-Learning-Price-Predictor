@@ -1,4 +1,37 @@
-        ###  Scikit-learn Design
+        ### PACKAGES AND TOOLS WHICH ARE NEEDED
+           
+        1. Python
+        2. Jupyter Notebook
+        3. Pandas
+        4. TensorFlow
+        5. PyTorch
+        6. Scikit-Learn
+        7. Keras
+        8. Microsoft Asure Machine Learning
+        9. Matplotlib
+       10. Numpy
+       11. Scipy        
+        
+        
+        ### SCIKIT-LEARN
+
+
+Scikit-learn is a powerful and widely used machine learning library in Python. It provides simple and efficient tools for data mining and machine learning, built on top of NumPy, SciPy, and Matplotlib. It is open-source and designed for both research and production use.
+
+
+🔹 Key Features of Scikit-Learn :-
+
+1. Supervised Learning: Classification (SVM, Random Forest, k-NN, etc.), Regression (Linear Regression, Ridge, Lasso, etc.)
+2. Unsupervised Learning: Clustering (k-Means, DBSCAN), Dimensionality Reduction (PCA, t-SNE)
+3. Model Selection: Hyperparameter tuning using GridSearchCV, Cross-validation
+4. Feature Engineering: Feature selection, feature extraction
+5. Preprocessing: Standardization, normalization, encoding categorical data
+6. Pipelines: Helps streamline machine learning workflows
+       
+       
+       
+           ###  SCIKIT- LEARN DESIGN
+
 
 Primarily, three types of objects
 1. Estimators - It estimates some parameter based on a dataset. Eg. imputer. 
@@ -11,7 +44,7 @@ Primarily, three types of objects
                 It also gives score() function which will evaluate the predictions.
 
 
-        ###  Feature Scaling
+        ###  FEATURE SCALING
 
 Primarily, two types of feature scaling methods:
 1. Min-max scaling (Normalization)
@@ -23,4 +56,47 @@ Primarily, two types of feature scaling methods:
     Sklearn provides a class called StandardScaler for this
 
 
+
+# Decision tree: A popular algorithm that can handle complex datasets and is easy to understand.
+
+# Support vector machine (SVM): A supervised learning algorithm that categorizes data into classes.
+
+# Logistic regression: A supervised learning algorithm that predicts the probability of an outcome.
+
+# Naive Bayes: An algorithm that uses probability theory to predict the likelihood of different outcomes.
+
+# K-Nearest Neighbor (kNN): An algorithm that classifies new data points based on the category of nearby data points.
+
+# Unsupervised learning: An algorithm that finds patterns in data without using predefined labels.
+
+# Supervised learning: An algorithm that uses labeled datasets to predict outcomes.
+
+# Apriori: An unsupervised learning algorithm that discovers association rules between item sets.
+
+# Clustering: An algorithm that discovers patterns in datasets that may not be obvious to .
+
+
+        
+         ### LOOKING FOR CORRELATION
+   
+   
+   "Looking for correlation" means analyzing the relationship between two or more variables to determine if changes in one variable are associated with changes in another. It helps in understanding patterns, dependencies, and potential causation in data.
+
+
+🔹 Types of Correlation :-
+
+1. Positive Correlation 📈
+
+   - As one variable increases, the other also increases.
+     Example: Higher temperature → Higher ice cream sales.
+
+2. Negative Correlation 📉
+
+   - As one variable increases, the other decreases.
+    Example: More study hours → Fewer exam mistakes.
+
+3. No Correlation 🚫
+
+   - No relationship between variables.
+     Example: Shoe size vs. IQ       
 
